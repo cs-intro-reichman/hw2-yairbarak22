@@ -11,7 +11,7 @@ public class Cheers {
                 String letters = "AEFHILMNORSX";
                 if ((letters.indexOf(word.charAt(i))) >= 0) 
                 System.out.println("Give me an " + word.charAt(i) + ": " + word.charAt(i) + "!");
-                else System.out.println("Give me a " + word.charAt(i) + ": " + word.charAt(i) + "!");
+                else System.out.println("Give me a  " + word.charAt(i) + ": " + word.charAt(i) + "!");
                 i = i + 1;      
          }
          int m=0;
