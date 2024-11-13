@@ -5,14 +5,14 @@ public class CalcPi {
 		int n = Integer.parseInt(args[0]);
 		double pi = Math.PI;
 		int i = 0;
-		double sumpi = 1.0-(1.0/3.0);
-		int divisor = 5;
-		boolean action = true;
+		double sumpi = 1.0;
+		double divisor = 3.0;
+		boolean action = false;
 		while(i < n) {
 			if (action) sumpi = sumpi + (1.0/divisor);
 			else sumpi = sumpi - (1.0/divisor);
 			action = !action;
-			divisor = divisor + 2;
+			divisor = divisor + 2.0;
 			i=i+1;
 			
 		}
