@@ -4,7 +4,7 @@ public class CalcPi {
 	    // get n, var pi/4
 		int n = Integer.parseInt(args[0]);
 		double pi = Math.PI;
-		int i = 0;
+		int i = 1 ;
 		double sumpi = 1.0;
 		double divisor = 3.0;
 		boolean action = false;
