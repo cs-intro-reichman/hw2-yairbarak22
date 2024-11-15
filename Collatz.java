@@ -7,7 +7,7 @@ public class Collatz {
         boolean con = mode.equals("c");
 		if (ver) System.out.println("1 4 2 1 (4)");
         for (int i = 2; i <= N; i = i  +1) {
-            int steps = 0;
+            int steps = 1;
             int current = i;
             if (ver) System.out.print(i);
             while (current != 1) {
